@@ -19,7 +19,7 @@ node("master")
     {
         sh '''
 		echo "Hello World!"
-		exit 1
+		exit 0
         '''
     }
 
