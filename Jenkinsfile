@@ -18,7 +18,8 @@ node("master")
     stage("Plugin Package")
     {
         sh '''
-		echo "Hello World!"	
+		echo "Hello World!"
+		exit 1
         '''
     }
 
